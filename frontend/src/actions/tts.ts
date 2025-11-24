@@ -159,3 +159,32 @@ export const getUserCredits = cache(async () => {
     return { success: false, error: "Failed to fetch credits", credits: 0 };
   }
 });
+
+export async function deleteAudioProject(id: string) {
+  try {
+    const session = await auth.api.getSession({
+      headers: await headers(),
+    });
+
+    if (!session?.user?.id) {
+      return { success: false, error: "Unauthorized" };
+    }
+
+    const project = await db.audioProject.findUnique({
+      where: { id },
+    });
+
+    if (!project || project.userId !== session.user.id) {
+      return { success: false, error: "Not found or unauthorized" };
+    }
+
+    await db.audioProject.delete({
+      where: { id },
+    });
+
+    return { success: true };
+  } catch (error) {
+    console.error("Error deleting audio project:", error);
+    return { success: false, error: "Failed to delete audio project" };
+  }
+}
