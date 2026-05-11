@@ -5,13 +5,13 @@
 [![Next.js](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org/)
 [![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
 [![Modal](https://img.shields.io/badge/Modal-Serverless-orange)](https://modal.com/)
-[![Neon](https://img.shields.io/badge/Neon-PostgreSQL-green)](https://neon.tech/)
+[![Neon](https://img.shields.io/badge/Neon-PostgreSQL-green)](https://get.neon.com/MpdL7eH)
 [![Polar](https://img.shields.io/badge/Polar-Payments-blue)](https://polar.sh/)
 [![Better Auth](https://img.shields.io/badge/Better%20Auth-Authentication-red)](https://better-auth.com/)
 
 ## 🔗 Quick Links
 
-- **Neon** → https://get.neon.com/dadagxp
+- **Neon** → https://get.neon.com/MpdL7eH
 - **Modal** → https://bit.ly/4j1oyWJ
 - **Eraser Diagram** → https://app.eraser.io/workspace/kLqXSZ6CIxZrJdeYMRt2?origin=share
 
@@ -281,7 +281,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📎 Useful Links
 
-- **Neon** → https://get.neon.com/dadagxp
+- **Neon** → https://get.neon.com/MpdL7eH
 - **Modal** → https://bit.ly/4j1oyWJ
 - **Polar** → https://polar.sh
 - **Better Auth** → https://better-auth.com
